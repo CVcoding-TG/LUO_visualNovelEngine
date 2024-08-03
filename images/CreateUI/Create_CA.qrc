@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="new">
+    <file>Create_A/lb_bakground_CA.jpg</file>
+    <file>Create_A/pb_background_CA.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="old">
+    <file>B1(create)/lb_attribute_background_B.jpg</file>
+    <file>B1(create)/lb_background_B.jpg</file>
+    <file>B1(create)/lb_backgroundIntroduce_B.png</file>
+    <file>B1(create)/lb_mode_B.png</file>
+    <file>B1(create)/lb_timeRemind_B.png</file>
+    <file>B1(create)/pb_exit_B.png</file>
+  </qresource>
+</RCC>

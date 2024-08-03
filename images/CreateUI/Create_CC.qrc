@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="new">
+    <file>Create_C/lb_background_CC.png</file>
+    <file>Create_C/lb_character_CC.png</file>
+  </qresource>
+</RCC>

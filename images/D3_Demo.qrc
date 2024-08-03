@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="old">
+    <file>D3(introduce)/lb_background_D.jpg</file>
+    <file>D3(introduce)/lb_trademark_D.png</file>
+    <file>D3(introduce)/pb_exit_D.png</file>
+  </qresource>
+</RCC>

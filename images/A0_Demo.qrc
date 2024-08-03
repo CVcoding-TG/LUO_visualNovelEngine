@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="old">
+    <file>A0_welcome/lb_background_A.png</file>
+    <file>A0_welcome/lb_note1_A.png</file>
+    <file>A0_welcome/lb_title_A.png</file>
+    <file>A0_welcome/lb_trademark_A.png</file>
+    <file>A0_welcome/pb_about_A.png</file>
+    <file>A0_welcome/pb_create_A.png</file>
+    <file>A0_welcome/pb_dictionary_A.png</file>
+    <file>A0_welcome/pb_set_A.png</file>
+  </qresource>
+</RCC>

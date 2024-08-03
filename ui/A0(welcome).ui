@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1441</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_A">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <widget class="QLabel" name="lb_background_A">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1440</width>
+         <height>900</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/A0_Demo.qrc">:/old/A0_welcome/lb_background_A.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_note1_A">
+       <property name="geometry">
+        <rect>
+         <x>1320</x>
+         <y>800</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/A0_Demo.qrc">:/old/A0_welcome/lb_note1_A.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_title_A">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>20</y>
+         <width>491</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/A0_Demo.qrc">:/old/A0_welcome/lb_title_A.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_trademark_A">
+       <property name="geometry">
+        <rect>
+         <x>1040</x>
+         <y>470</y>
+         <width>401</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/A0_Demo.qrc">:/old/A0_welcome/lb_trademark_A.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_about_A">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>450</y>
+         <width>191</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/A0_Demo.qrc">
+         <normaloff>:/old/A0_welcome/pb_about_A.png</normaloff>:/old/A0_welcome/pb_about_A.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>191</width>
+         <height>81</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_create_A">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>250</y>
+         <width>191</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/A0_Demo.qrc">
+         <normaloff>:/old/A0_welcome/pb_create_A.png</normaloff>:/old/A0_welcome/pb_create_A.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>191</width>
+         <height>81</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_dictionary_A">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>350</y>
+         <width>191</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/A0_Demo.qrc">
+         <normaloff>:/old/A0_welcome/pb_dictionary_A.png</normaloff>:/old/A0_welcome/pb_dictionary_A.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>191</width>
+         <height>81</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_set_A">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>550</y>
+         <width>191</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/A0_Demo.qrc">
+         <normaloff>:/old/A0_welcome/pb_set_A.png</normaloff>:/old/A0_welcome/pb_set_A.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>191</width>
+         <height>81</height>
+        </size>
+       </property>
+      </widget>
+      <zorder>lb_background_A</zorder>
+      <zorder>lb_title_A</zorder>
+      <zorder>pb_about_A</zorder>
+      <zorder>pb_create_A</zorder>
+      <zorder>pb_dictionary_A</zorder>
+      <zorder>pb_set_A</zorder>
+      <zorder>lb_trademark_A</zorder>
+      <zorder>lb_note1_A</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/A0(welcome)_Demo.qrc"/>
+  <include location="../images/A0_Demo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

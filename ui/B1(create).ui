@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1458</width>
+     <height>982</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_B">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_B" native="true">
+      <widget class="QLabel" name="lb_background_B">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1440</width>
+         <height>900</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/B1(create)_Demo.qrc">:/old/B1(create)/lb_background_B.jpg</pixmap>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>391</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_above_B">
+        <item row="1" column="0">
+         <widget class="QWidget" name="widget_above_B" native="true">
+          <widget class="QLabel" name="lb_above_mode_B">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(23, 22, 27);
+font: 75 14pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>  当前模式：</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_above_timeRemind_B">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>52</y>
+             <width>161</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(23, 22, 27);
+font: 75 14pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+</string>
+           </property>
+           <property name="text">
+            <string>  已工作时间：</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="cb_above_mode_B">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>20</y>
+             <width>81</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="lcd_above_time_B">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>50</y>
+             <width>81</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pb_above_exit_B">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(54, 0, 129);
+font: 75 18pt &quot;Constantia&quot;;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>101</width>
+             <height>41</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_above_background_B">
+           <property name="geometry">
+            <rect>
+             <x>-7</x>
+             <y>1</y>
+             <width>401</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(0, 10, 13);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <zorder>lb_above_background_B</zorder>
+          <zorder>lb_above_mode_B</zorder>
+          <zorder>lb_above_timeRemind_B</zorder>
+          <zorder>cb_above_mode_B</zorder>
+          <zorder>lcd_above_time_B</zorder>
+          <zorder>pb_above_exit_B</zorder>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>720</y>
+         <width>1441</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_introduce_B">
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_introduce_B" native="true">
+          <widget class="QLabel" name="lb_introduce_background_B">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1441</width>
+             <height>151</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(23, 22, 27);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_introduce_Maker_B">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>181</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;color:rgb(102, 181, 220);</string>
+           </property>
+           <property name="text">
+            <string>  Maker:CVcoding</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_introduce_studio_B">
+           <property name="geometry">
+            <rect>
+             <x>1190</x>
+             <y>70</y>
+             <width>231</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;color:rgb(102, 181, 220);</string>
+           </property>
+           <property name="text">
+            <string>Powered by TG-studio</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_introduce_biliURL_B">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>70</y>
+             <width>821</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;微软雅黑&quot;;
+color: rgb(87, 69, 186);</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bilibili:&lt;span style=&quot; color:#ffffff;&quot;/&gt;&lt;a href=&quot;https://space.bilibili.com/1100670294?spm_id_from=333.337.search-card.all.click&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffffff;&quot;&gt;https://space.bilibili.com/1100670294?spm_id_from=333.337.search-card.all.click&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_introduce_email_B">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>35</y>
+             <width>281</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;微软雅黑&quot;;
+color: rgb(87, 69, 186);</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;  e-mail:&lt;span style=&quot; color:#ffffff;&quot;&gt;CVcoding@proton.me&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>879</x>
+         <y>0</y>
+         <width>561</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_attribute_B">
+        <item row="0" column="0">
+         <widget class="QStackedWidget" name="sw_attribute_B">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="page_attribute_flow_B">
+           <widget class="QLabel" name="lb_attribute_flow_background_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>560</width>
+              <height>720</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(45, 43, 53);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_titleFlowI_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(20, 20, 24);
+font: 75 20pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口属性：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_typeI_B">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>60</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口类型：</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="cb_attribute_flowI_B">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>68</y>
+              <width>69</width>
+              <height>22</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_numI_B">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>60</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口编号：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_nameI_B">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>90</y>
+              <width>201</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口名称（注释）：</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="le_attribute_flow_nameI_B">
+            <property name="geometry">
+             <rect>
+              <x>270</x>
+              <y>100</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_titleFlowII_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>170</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(20, 20, 24);
+font: 75 20pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗性模板展示：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_mapII_B">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>240</y>
+              <width>371</width>
+              <height>171</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 87 48pt &quot;Arial Black&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>     MAP</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_titleFlowIII_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>470</y>
+              <width>301</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(20, 20, 24);
+font: 75 20pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗性流程图缩略展示图：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_flow_mapIII_B">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>530</y>
+              <width>371</width>
+              <height>171</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 87 48pt &quot;Arial Black&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>     MAP</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pb_attribute_flow_updataI_B">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>480</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+            </property>
+            <property name="text">
+             <string>图片上传</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_attribute_edit_B">
+           <widget class="QLabel" name="lb_attribute_edit_background_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>560</width>
+              <height>720</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(45, 43, 53);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_edit_titleFlowI_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(20, 20, 24);
+font: 75 20pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口属性：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_edit_typeI_B">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>60</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口类型：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_edit_numI_B">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>60</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口编号：</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_edit_nameI_B">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>90</y>
+              <width>201</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;宋体&quot;;color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>窗口名称（注释）：</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="le_attribute_edit_nameI_B">
+            <property name="geometry">
+             <rect>
+              <x>270</x>
+              <y>100</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="lb_attribute_edit_titleFlowII_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>160</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(20, 20, 24);
+font: 75 20pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>控件参数：</string>
+            </property>
+           </widget>
+           <widget class="QStackedWidget" name="sw_attribute_edit_II_B">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>210</y>
+              <width>561</width>
+              <height>511</height>
+             </rect>
+            </property>
+            <widget class="QWidget" name="page_attribute_edit_II1_B"/>
+            <widget class="QWidget" name="page_attribute_edit_II2_B"/>
+           </widget>
+           <widget class="QComboBox" name="cb_attribute_editI_B">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>65</y>
+              <width>69</width>
+              <height>22</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="lb_chart_B">
+       <property name="geometry">
+        <rect>
+         <x>-7</x>
+         <y>111</y>
+         <width>885</width>
+         <height>610</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/B1(create)_Demo.qrc"/>
+  <include location="../images/B1_Demo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

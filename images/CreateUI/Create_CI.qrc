@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="new">
+    <file>Create_I/lb_background_Box_CI.jpg</file>
+    <file>Create_I/lb_boder_CI.png</file>
+    <file>Create_I/lb_background_CI.png</file>
+    <file>Create_I/lb_map_CI.jpg</file>
+  </qresource>
+</RCC>

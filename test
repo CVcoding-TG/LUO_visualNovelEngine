@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <widget name="__qt_fake_top_level">
+  <widget class="QLabel" name="lb_background_A">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>J:/编程项目/LUO_visualNovelEngine/images/A0(welcome)/lb_background_A.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+</ui>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1020</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lb_background_CH">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1020</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../../images/CreateUI/Create_CH.qrc">:/new/Create_H/lb_background_CH.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_audio_CH" native="true">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>130</y>
+     <width>730</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="lb_audioBackground_CH">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>731</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(121, 121, 121);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_music_CH">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>81</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>背景音乐：</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="hsd_music_CH">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>81</y>
+      <width>611</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_audio_CH">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 24pt &quot;Monotype Corsiva&quot;;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>AUDIO：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_voice_CH">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>121</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>语音：</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="hsd_voice_CH">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>121</y>
+      <width>611</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_music_blur_CH">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>81</y>
+      <width>701</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 50);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_voice_blur_CH">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>121</y>
+      <width>701</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 50);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_clickSound_CH">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>160</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>点击音效：</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_clickSound_CH">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开启</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_clickSound_blur_CH">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>701</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 50);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>lb_audioBackground_CH</zorder>
+   <zorder>lb_clickSound_blur_CH</zorder>
+   <zorder>lb_voice_blur_CH</zorder>
+   <zorder>lb_music_blur_CH</zorder>
+   <zorder>lb_music_CH</zorder>
+   <zorder>hsd_music_CH</zorder>
+   <zorder>lb_audio_CH</zorder>
+   <zorder>lb_voice_CH</zorder>
+   <zorder>hsd_voice_CH</zorder>
+   <zorder>lb_clickSound_CH</zorder>
+   <zorder>rb_clickSound_CH</zorder>
+  </widget>
+  <widget class="QLabel" name="lb_title_CH">
+   <property name="geometry">
+    <rect>
+     <x>852</x>
+     <y>25</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 700 36pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>     设置</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_date_CH" native="true">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>400</y>
+     <width>731</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="lb_dateBackground_CH">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>-5</y>
+      <width>731</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(121, 121, 121);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_saveDate_CH">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 24pt &quot;Monotype Corsiva&quot;;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>DATE：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date1_CH">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档1（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date2_CH">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档2（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date3_CH">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档3（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date4_CH">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档4（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date5_CH">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档5（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date6_CH">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>200</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档6（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date7_CH">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档7（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date8_CH">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>300</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档8（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_date9_CH">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>300</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档9（日期）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_saveDate_CH">
+    <property name="geometry">
+     <rect>
+      <x>224</x>
+      <y>23</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存档</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_readDate_CH">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>23</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>读档</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_ps_CH">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>30</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PS：点击档案后选择存档/读档</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pb_exit_CH">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>920</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../images/CreateUI/Create_CH.qrc"/>
+ </resources>
+ <connections/>
+</ui>

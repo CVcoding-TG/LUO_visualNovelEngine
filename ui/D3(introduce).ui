@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1441</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_D">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_D" native="true">
+      <widget class="QLabel" name="lb_background_D">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1440</width>
+         <height>870</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/D3(introduce)_Demo.qrc">:/old/D3(introduce)/lb_background_D.jpg</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_trademark_D">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>20</y>
+         <width>300</width>
+         <height>300</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/D3(introduce)_Demo.qrc">:/old/D3(introduce)/lb_trademark_D.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_information1_D">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>340</y>
+         <width>531</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(96, 126, 178);
+font: 20pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>制作组：TG studio
+STAFF:CVcoding,雨下的真大，xiaoyuCai</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_information2_D">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>440</y>
+         <width>531</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(96, 126, 178);
+font: 20pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>软件名称：Visual novel engine(洛LUO)
+版本号：Demo：2.1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_information3_D">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>540</y>
+         <width>531</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(96, 126, 178);
+font: 20pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Bilibili：1100670294
+e-mail:2539843044@qq.com</string>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="sw_treaty_D">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>640</y>
+         <width>531</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="swPage1_treaty_D">
+        <widget class="QLabel" name="lb_treaty1_D">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(96, 126, 178);
+font: 16pt &quot;新宋体&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;《免责声明》 &lt;/p&gt;&lt;p&gt;1.TG studio社长及其全体社员坚决维护国家统一与社&lt;/p&gt;&lt;p&gt;会稳定。 &lt;/p&gt;&lt;p&gt;2.软件制作组只提供软件使用服务，用户的行为后果自&lt;/p&gt;&lt;p&gt;负，与制作组无关。 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="swPage2_treaty_D">
+        <widget class="QLabel" name="lb_treaty2_D">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(96, 126, 178);
+font: 16pt &quot;新宋体&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;《用户条约》&lt;/p&gt;&lt;p&gt;1.严禁使用反编译等手段窃取源码并传播，允许用户发&lt;/p&gt;&lt;p&gt;表使用本软件制作的非商业游戏，但务必注明使用本软&lt;/p&gt;&lt;p&gt;件制作及TGstudioB站官号。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pb_exit_D">
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>720</y>
+         <width>169</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 0, 0);
+font: 24pt &quot;Franklin Gothic Medium&quot;;</string>
+       </property>
+       <property name="text">
+        <string>EXIT</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/old/G:/编程项目/洛LUO_visualNovelEngine/images/D3(introduce)/pb_exit_D.png</normaloff>:/old/G:/编程项目/洛LUO_visualNovelEngine/images/D3(introduce)/pb_exit_D.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>169</width>
+         <height>67</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/D3(introduce)_Demo.qrc"/>
+  <include location="../images/D3_Demo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
